@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB44E3D82E61984F008ECBF6 /* IGListDiffKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E3D72E61984F008ECBF6 /* IGListDiffKit */; };
+		DB44E3DA2E61984F008ECBF6 /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E3D92E61984F008ECBF6 /* IGListKit */; };
+		DB44E3DC2E61984F008ECBF6 /* IGListSwiftKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E3DB2E61984F008ECBF6 /* IGListSwiftKit */; };
+		DB44E3E02E619946008ECBF6 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E3DF2E619946008ECBF6 /* ReSwift */; };
+		DB44E4922E67FBA5008ECBF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44E4582E67FBA5008ECBF6 /* Assets.xcassets */; };
+		DB44E4932E67FBA5008ECBF6 /* sector_mapping.json in Resources */ = {isa = PBXBuildFile; fileRef = DB44E48A2E67FBA5008ECBF6 /* sector_mapping.json */; };
+		DB44E4942E67FBA5008ECBF6 /* IGLCombineBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */; };
+		DB44E4952E67FBA5008ECBF6 /* AlertBannerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */; };
+		DB44E4962E67FBA5008ECBF6 /* SectorChipSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */; };
+		DB44E4972E67FBA5008ECBF6 /* FeatureFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4562E67FBA5008ECBF6 /* FeatureFlag.swift */; };
+		DB44E4982E67FBA5008ECBF6 /* SectorChipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */; };
+		DB44E4992E67FBA5008ECBF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4852E67FBA5008ECBF6 /* ContentView.swift */; };
+		DB44E49A2E67FBA5008ECBF6 /* SectorMappingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */; };
+		DB44E49B2E67FBA5008ECBF6 /* SectorChipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */; };
+		DB44E49C2E67FBA5008ECBF6 /* IGListObjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */; };
+		DB44E49D2E67FBA5008ECBF6 /* IGLRxBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */; };
+		DB44E49E2E67FBA5008ECBF6 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */; };
+		DB44E49F2E67FBA5008ECBF6 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */; };
+		DB44E4A02E67FBA5008ECBF6 /* IGListAdapterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */; };
+		DB44E4A12E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */; };
+		DB44E4A22E67FBA5008ECBF6 /* TemperatureSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */; };
+		DB44E4A32E67FBA5008ECBF6 /* Thresholds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4592E67FBA5008ECBF6 /* Thresholds.swift */; };
+		DB44E4A42E67FBA5008ECBF6 /* AlertNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */; };
+		DB44E4A52E67FBA5008ECBF6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4552E67FBA5008ECBF6 /* App.swift */; };
+		DB44E4A62E67FBA5008ECBF6 /* HeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */; };
+		DB44E4A72E67FBA5008ECBF6 /* SectorSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45B2E67FBA5008ECBF6 /* SectorSuggestion.swift */; };
+		DB44E4A82E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */; };
+		DB44E4A92E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */; };
+		DB44E4AA2E67FBA5008ECBF6 /* IGListHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */; };
+		DB44E4AB2E67FBA5008ECBF6 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45C2E67FBA5008ECBF6 /* Temperature.swift */; };
+		DB44E4AC2E67FBA5008ECBF6 /* AlertBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */; };
+		DB44E4AD2E67FBA5008ECBF6 /* WeatherScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */; };
+		DB44E4AE2E67FBA5008ECBF6 /* HeaderSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */; };
+		DB44E4AF2E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */; };
+		DB44E4B02E67FBA5008ECBF6 /* WeatherAlertsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */; };
+		DB44E4B12E67FBA5008ECBF6 /* PreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */; };
+		DB44E4B22E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */; };
+		DB44E4B32E67FBA5008ECBF6 /* TemperatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */; };
+		DB44E4B42E67FBA5008ECBF6 /* WeatherEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */; };
+		DB44E4B52E67FBA5008ECBF6 /* AlertBannerSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */; };
+		DB44E4B62E67FBA5008ECBF6 /* LoadingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */; };
+		DB44E4B72E67FBA5008ECBF6 /* LoadingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */; };
+		DB44E4B82E67FBA5008ECBF6 /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */; };
+		DB44E4B92E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */; };
+		DB44E4E02E68830B008ECBF6 /* TemperatureColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */; };
+		DB44E5062E69A8AA008ECBF6 /* MarketModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */; };
+		DB44E5082E69A8DE008ECBF6 /* MarketImpactCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */; };
+		DB44E50A2E69A99B008ECBF6 /* TickerRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB44E3C62E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature_IGListKit_RxSwift_ReSwift.entitlements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44E4552E67FBA5008ECBF6 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		DB44E4562E67FBA5008ECBF6 /* FeatureFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlag.swift; sourceTree = "<group>"; };
+		DB44E4582E67FBA5008ECBF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB44E4592E67FBA5008ECBF6 /* Thresholds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thresholds.swift; sourceTree = "<group>"; };
+		DB44E45B2E67FBA5008ECBF6 /* SectorSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorSuggestion.swift; sourceTree = "<group>"; };
+		DB44E45C2E67FBA5008ECBF6 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEvent.swift; sourceTree = "<group>"; };
+		DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherScenario.swift; sourceTree = "<group>"; };
+		DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListAdapterProvider.swift; sourceTree = "<group>"; };
+		DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListObjectsDataSource.swift; sourceTree = "<group>"; };
+		DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListContainerViewRepresentable.swift; sourceTree = "<group>"; };
+		DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListHostingViewController.swift; sourceTree = "<group>"; };
+		DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IGListHostingViewController+Preview.swift"; sourceTree = "<group>"; };
+		DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLCombineBinder.swift; sourceTree = "<group>"; };
+		DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLReSwiftSubscriber.swift; sourceTree = "<group>"; };
+		DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLRxBinder.swift; sourceTree = "<group>"; };
+		DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerCell.swift; sourceTree = "<group>"; };
+		DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipCell.swift; sourceTree = "<group>"; };
+		DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCell.swift; sourceTree = "<group>"; };
+		DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerItem.swift; sourceTree = "<group>"; };
+		DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderItem.swift; sourceTree = "<group>"; };
+		DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingItem.swift; sourceTree = "<group>"; };
+		DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipItem.swift; sourceTree = "<group>"; };
+		DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureItem.swift; sourceTree = "<group>"; };
+		DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerSectionController.swift; sourceTree = "<group>"; };
+		DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionController.swift; sourceTree = "<group>"; };
+		DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSectionController.swift; sourceTree = "<group>"; };
+		DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipSectionController.swift; sourceTree = "<group>"; };
+		DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSectionController.swift; sourceTree = "<group>"; };
+		DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelpers.swift; sourceTree = "<group>"; };
+		DB44E4852E67FBA5008ECBF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureFeedViewIGL.swift; sourceTree = "<group>"; };
+		DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemperatureFeedViewIGL+Preview.swift"; sourceTree = "<group>"; };
+		DB44E48A2E67FBA5008ECBF6 /* sector_mapping.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sector_mapping.json; sourceTree = "<group>"; };
+		DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotificationScheduler.swift; sourceTree = "<group>"; };
+		DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorMappingProvider.swift; sourceTree = "<group>"; };
+		DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAlertsProvider.swift; sourceTree = "<group>"; };
+		DB44E4902E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Temperature_IGListKit_RxSwift_ReSwift.entitlements; sourceTree = "<group>"; };
+		DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_IGListKit_RxSwift_ReSwiftApp.swift; sourceTree = "<group>"; };
+		DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureColorProvider.swift; sourceTree = "<group>"; };
+		DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModels.swift; sourceTree = "<group>"; };
+		DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketImpactCardCell.swift; sourceTree = "<group>"; };
+		DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerRowCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB44E4DC2E688117008ECBF6 /* Design */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Design;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB44E3C32E615D86008ECBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44E3D82E61984F008ECBF6 /* IGListDiffKit in Frameworks */,
+				DB44E3DA2E61984F008ECBF6 /* IGListKit in Frameworks */,
+				DB44E3DC2E61984F008ECBF6 /* IGListSwiftKit in Frameworks */,
+				DB44E3E02E619946008ECBF6 /* ReSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB44E3BD2E615D86008ECBF6 = {
+			isa = PBXGroup;
+			children = (
+				DB44E4DC2E688117008ECBF6 /* Design */,
+				DB44E3C72E615D86008ECBF6 /* Products */,
+				DB44E4572E67FBA5008ECBF6 /* App */,
+				DB44E4582E67FBA5008ECBF6 /* Assets.xcassets */,
+				DB44E45F2E67FBA5008ECBF6 /* Domain */,
+				DB44E4892E67FBA5008ECBF6 /* Presentation */,
+				DB44E48B2E67FBA5008ECBF6 /* Resources */,
+				DB44E48F2E67FBA5008ECBF6 /* Services */,
+				DB44E4902E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */,
+				DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		DB44E3C72E615D86008ECBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E3C62E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB44E4572E67FBA5008ECBF6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4552E67FBA5008ECBF6 /* App.swift */,
+				DB44E4562E67FBA5008ECBF6 /* FeatureFlag.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DB44E45A2E67FBA5008ECBF6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4592E67FBA5008ECBF6 /* Thresholds.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DB44E45E2E67FBA5008ECBF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E45B2E67FBA5008ECBF6 /* SectorSuggestion.swift */,
+				DB44E45C2E67FBA5008ECBF6 /* Temperature.swift */,
+				DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB44E45F2E67FBA5008ECBF6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E45A2E67FBA5008ECBF6 /* Config */,
+				DB44E45E2E67FBA5008ECBF6 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DB44E4612E67FBA5008ECBF6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		DB44E4642E67FBA5008ECBF6 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */,
+				DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		DB44E4682E67FBA5008ECBF6 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */,
+				DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */,
+				DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		DB44E46A2E67FBA5008ECBF6 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		DB44E46C2E67FBA5008ECBF6 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */,
+			);
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		DB44E46E2E67FBA5008ECBF6 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		DB44E46F2E67FBA5008ECBF6 /* BridgesToState */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E46A2E67FBA5008ECBF6 /* Combine */,
+				DB44E46C2E67FBA5008ECBF6 /* ReSwift */,
+				DB44E46E2E67FBA5008ECBF6 /* RxSwift */,
+			);
+			path = BridgesToState;
+			sourceTree = "<group>";
+		};
+		DB44E4752E67FBA5008ECBF6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */,
+				DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */,
+				DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */,
+				DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */,
+				DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */,
+				DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */,
+				DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DB44E47B2E67FBA5008ECBF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */,
+				DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */,
+				DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */,
+				DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */,
+				DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */,
+				DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB44E4812E67FBA5008ECBF6 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */,
+				DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */,
+				DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */,
+				DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */,
+				DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		DB44E4822E67FBA5008ECBF6 /* IGListKitBridge */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4642E67FBA5008ECBF6 /* Adapter */,
+				DB44E4682E67FBA5008ECBF6 /* Bridge */,
+				DB44E46F2E67FBA5008ECBF6 /* BridgesToState */,
+				DB44E4752E67FBA5008ECBF6 /* Cells */,
+				DB44E47B2E67FBA5008ECBF6 /* Models */,
+				DB44E4812E67FBA5008ECBF6 /* SectionControllers */,
+			);
+			path = IGListKitBridge;
+			sourceTree = "<group>";
+		};
+		DB44E4842E67FBA5008ECBF6 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		DB44E4882E67FBA5008ECBF6 /* SwiftUI  */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4852E67FBA5008ECBF6 /* ContentView.swift */,
+				DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */,
+				DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */,
+			);
+			path = "SwiftUI ";
+			sourceTree = "<group>";
+		};
+		DB44E4892E67FBA5008ECBF6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E4612E67FBA5008ECBF6 /* Debug */,
+				DB44E4822E67FBA5008ECBF6 /* IGListKitBridge */,
+				DB44E4842E67FBA5008ECBF6 /* Previews */,
+				DB44E4882E67FBA5008ECBF6 /* SwiftUI  */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DB44E48B2E67FBA5008ECBF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E48A2E67FBA5008ECBF6 /* sector_mapping.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB44E48F2E67FBA5008ECBF6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */,
+				DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */,
+				DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */,
+				DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB44E3C52E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44E3D22E615D88008ECBF6 /* Build configuration list for PBXNativeTarget "Temperature_IGListKit_RxSwift_ReSwift.entitlements" */;
+			buildPhases = (
+				DB44E3C22E615D86008ECBF6 /* Sources */,
+				DB44E3C32E615D86008ECBF6 /* Frameworks */,
+				DB44E3C42E615D86008ECBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB44E4DC2E688117008ECBF6 /* Design */,
+			);
+			name = Temperature_IGListKit_RxSwift_ReSwift.entitlements;
+			packageProductDependencies = (
+				DB44E3D72E61984F008ECBF6 /* IGListDiffKit */,
+				DB44E3D92E61984F008ECBF6 /* IGListKit */,
+				DB44E3DB2E61984F008ECBF6 /* IGListSwiftKit */,
+				DB44E3DF2E619946008ECBF6 /* ReSwift */,
+			);
+			productName = "Tenperature-IGListKit_RxSwift_ReSwift";
+			productReference = DB44E3C62E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB44E3BE2E615D86008ECBF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DB44E3C52E615D86008ECBF6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = DB44E3C12E615D86008ECBF6 /* Build configuration list for PBXProject "Temperature-IGListKit_RxSwift_ReSwift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB44E3BD2E615D86008ECBF6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DB44E3D62E61984F008ECBF6 /* XCRemoteSwiftPackageReference "IGListKit" */,
+				DB44E3DD2E61992E008ECBF6 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DB44E3DE2E619946008ECBF6 /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB44E3C72E615D86008ECBF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB44E3C52E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB44E3C42E615D86008ECBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44E4922E67FBA5008ECBF6 /* Assets.xcassets in Resources */,
+				DB44E4932E67FBA5008ECBF6 /* sector_mapping.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB44E3C22E615D86008ECBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44E4942E67FBA5008ECBF6 /* IGLCombineBinder.swift in Sources */,
+				DB44E4952E67FBA5008ECBF6 /* AlertBannerItem.swift in Sources */,
+				DB44E50A2E69A99B008ECBF6 /* TickerRowCell.swift in Sources */,
+				DB44E4962E67FBA5008ECBF6 /* SectorChipSectionController.swift in Sources */,
+				DB44E4972E67FBA5008ECBF6 /* FeatureFlag.swift in Sources */,
+				DB44E4982E67FBA5008ECBF6 /* SectorChipItem.swift in Sources */,
+				DB44E4992E67FBA5008ECBF6 /* ContentView.swift in Sources */,
+				DB44E49A2E67FBA5008ECBF6 /* SectorMappingProvider.swift in Sources */,
+				DB44E49B2E67FBA5008ECBF6 /* SectorChipCell.swift in Sources */,
+				DB44E49C2E67FBA5008ECBF6 /* IGListObjectsDataSource.swift in Sources */,
+				DB44E49D2E67FBA5008ECBF6 /* IGLRxBinder.swift in Sources */,
+				DB44E49E2E67FBA5008ECBF6 /* HeaderCell.swift in Sources */,
+				DB44E49F2E67FBA5008ECBF6 /* LoadingCell.swift in Sources */,
+				DB44E4A02E67FBA5008ECBF6 /* IGListAdapterProvider.swift in Sources */,
+				DB44E4A12E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift in Sources */,
+				DB44E4A22E67FBA5008ECBF6 /* TemperatureSectionController.swift in Sources */,
+				DB44E4A32E67FBA5008ECBF6 /* Thresholds.swift in Sources */,
+				DB44E4A42E67FBA5008ECBF6 /* AlertNotificationScheduler.swift in Sources */,
+				DB44E4A52E67FBA5008ECBF6 /* App.swift in Sources */,
+				DB44E4A62E67FBA5008ECBF6 /* HeaderItem.swift in Sources */,
+				DB44E4A72E67FBA5008ECBF6 /* SectorSuggestion.swift in Sources */,
+				DB44E4A82E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift in Sources */,
+				DB44E4A92E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift in Sources */,
+				DB44E4AA2E67FBA5008ECBF6 /* IGListHostingViewController.swift in Sources */,
+				DB44E4AB2E67FBA5008ECBF6 /* Temperature.swift in Sources */,
+				DB44E4AC2E67FBA5008ECBF6 /* AlertBannerCell.swift in Sources */,
+				DB44E4AD2E67FBA5008ECBF6 /* WeatherScenario.swift in Sources */,
+				DB44E4AE2E67FBA5008ECBF6 /* HeaderSectionController.swift in Sources */,
+				DB44E4AF2E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift in Sources */,
+				DB44E5082E69A8DE008ECBF6 /* MarketImpactCardCell.swift in Sources */,
+				DB44E4B02E67FBA5008ECBF6 /* WeatherAlertsProvider.swift in Sources */,
+				DB44E4B12E67FBA5008ECBF6 /* PreviewHelpers.swift in Sources */,
+				DB44E4B22E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift in Sources */,
+				DB44E4B32E67FBA5008ECBF6 /* TemperatureItem.swift in Sources */,
+				DB44E4E02E68830B008ECBF6 /* TemperatureColorProvider.swift in Sources */,
+				DB44E4B42E67FBA5008ECBF6 /* WeatherEvent.swift in Sources */,
+				DB44E4B52E67FBA5008ECBF6 /* AlertBannerSectionController.swift in Sources */,
+				DB44E4B62E67FBA5008ECBF6 /* LoadingSectionController.swift in Sources */,
+				DB44E4B72E67FBA5008ECBF6 /* LoadingItem.swift in Sources */,
+				DB44E4B82E67FBA5008ECBF6 /* TemperatureCell.swift in Sources */,
+				DB44E4B92E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift in Sources */,
+				DB44E5062E69A8AA008ECBF6 /* MarketModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB44E3D02E615D88008ECBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L6SXUP9G68;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB44E3D12E615D88008ECBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L6SXUP9G68;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DB44E3D32E615D88008ECBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Temperature_IGListKit_RxSwift_ReSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6SXUP9G68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.d3rvi2lg1ont69d.Tenperature-IGListKit-RxSwift-ReSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		DB44E3D42E615D88008ECBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Temperature_IGListKit_RxSwift_ReSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6SXUP9G68;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.d3rvi2lg1ont69d.Tenperature-IGListKit-RxSwift-ReSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB44E3C12E615D86008ECBF6 /* Build configuration list for PBXProject "Temperature-IGListKit_RxSwift_ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44E3D02E615D88008ECBF6 /* Debug */,
+				DB44E3D12E615D88008ECBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44E3D22E615D88008ECBF6 /* Build configuration list for PBXNativeTarget "Temperature_IGListKit_RxSwift_ReSwift.entitlements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44E3D32E615D88008ECBF6 /* Debug */,
+				DB44E3D42E615D88008ECBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB44E3D62E61984F008ECBF6 /* XCRemoteSwiftPackageReference "IGListKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Instagram/IGListKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DB44E3DD2E61992E008ECBF6 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		DB44E3DE2E619946008ECBF6 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB44E3D72E61984F008ECBF6 /* IGListDiffKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3D62E61984F008ECBF6 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListDiffKit;
+		};
+		DB44E3D92E61984F008ECBF6 /* IGListKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3D62E61984F008ECBF6 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListKit;
+		};
+		DB44E3DB2E61984F008ECBF6 /* IGListSwiftKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3D62E61984F008ECBF6 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListSwiftKit;
+		};
+		DB44E3DF2E619946008ECBF6 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3DE2E619946008ECBF6 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB44E3BE2E615D86008ECBF6 /* Project object */;
+}
