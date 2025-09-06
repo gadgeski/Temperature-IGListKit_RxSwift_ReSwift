@@ -13,48 +13,16 @@
 		DB44E3E02E619946008ECBF6 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E3DF2E619946008ECBF6 /* ReSwift */; };
 		DB44E4922E67FBA5008ECBF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44E4582E67FBA5008ECBF6 /* Assets.xcassets */; };
 		DB44E4932E67FBA5008ECBF6 /* sector_mapping.json in Resources */ = {isa = PBXBuildFile; fileRef = DB44E48A2E67FBA5008ECBF6 /* sector_mapping.json */; };
-		DB44E4942E67FBA5008ECBF6 /* IGLCombineBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */; };
-		DB44E4952E67FBA5008ECBF6 /* AlertBannerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */; };
-		DB44E4962E67FBA5008ECBF6 /* SectorChipSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */; };
 		DB44E4972E67FBA5008ECBF6 /* FeatureFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4562E67FBA5008ECBF6 /* FeatureFlag.swift */; };
-		DB44E4982E67FBA5008ECBF6 /* SectorChipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */; };
-		DB44E4992E67FBA5008ECBF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4852E67FBA5008ECBF6 /* ContentView.swift */; };
 		DB44E49A2E67FBA5008ECBF6 /* SectorMappingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */; };
-		DB44E49B2E67FBA5008ECBF6 /* SectorChipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */; };
-		DB44E49C2E67FBA5008ECBF6 /* IGListObjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */; };
-		DB44E49D2E67FBA5008ECBF6 /* IGLRxBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */; };
-		DB44E49E2E67FBA5008ECBF6 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */; };
-		DB44E49F2E67FBA5008ECBF6 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */; };
-		DB44E4A02E67FBA5008ECBF6 /* IGListAdapterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */; };
-		DB44E4A12E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */; };
-		DB44E4A22E67FBA5008ECBF6 /* TemperatureSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */; };
 		DB44E4A32E67FBA5008ECBF6 /* Thresholds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4592E67FBA5008ECBF6 /* Thresholds.swift */; };
 		DB44E4A42E67FBA5008ECBF6 /* AlertNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */; };
 		DB44E4A52E67FBA5008ECBF6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4552E67FBA5008ECBF6 /* App.swift */; };
-		DB44E4A62E67FBA5008ECBF6 /* HeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */; };
 		DB44E4A72E67FBA5008ECBF6 /* SectorSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45B2E67FBA5008ECBF6 /* SectorSuggestion.swift */; };
-		DB44E4A82E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */; };
-		DB44E4A92E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */; };
-		DB44E4AA2E67FBA5008ECBF6 /* IGListHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */; };
 		DB44E4AB2E67FBA5008ECBF6 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45C2E67FBA5008ECBF6 /* Temperature.swift */; };
-		DB44E4AC2E67FBA5008ECBF6 /* AlertBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */; };
-		DB44E4AD2E67FBA5008ECBF6 /* WeatherScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */; };
-		DB44E4AE2E67FBA5008ECBF6 /* HeaderSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */; };
-		DB44E4AF2E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */; };
 		DB44E4B02E67FBA5008ECBF6 /* WeatherAlertsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */; };
-		DB44E4B12E67FBA5008ECBF6 /* PreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */; };
-		DB44E4B22E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */; };
-		DB44E4B32E67FBA5008ECBF6 /* TemperatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */; };
 		DB44E4B42E67FBA5008ECBF6 /* WeatherEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */; };
-		DB44E4B52E67FBA5008ECBF6 /* AlertBannerSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */; };
-		DB44E4B62E67FBA5008ECBF6 /* LoadingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */; };
-		DB44E4B72E67FBA5008ECBF6 /* LoadingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */; };
-		DB44E4B82E67FBA5008ECBF6 /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */; };
-		DB44E4B92E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */; };
-		DB44E4E02E68830B008ECBF6 /* TemperatureColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */; };
-		DB44E5062E69A8AA008ECBF6 /* MarketModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */; };
-		DB44E5082E69A8DE008ECBF6 /* MarketImpactCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */; };
-		DB44E50A2E69A99B008ECBF6 /* TickerRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */; };
+		DB44E5362E69E3EB008ECBF6 /* MockWeatherDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5352E69E3EB008ECBF6 /* MockWeatherDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,50 +34,38 @@
 		DB44E45B2E67FBA5008ECBF6 /* SectorSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorSuggestion.swift; sourceTree = "<group>"; };
 		DB44E45C2E67FBA5008ECBF6 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEvent.swift; sourceTree = "<group>"; };
-		DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherScenario.swift; sourceTree = "<group>"; };
-		DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListAdapterProvider.swift; sourceTree = "<group>"; };
-		DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListObjectsDataSource.swift; sourceTree = "<group>"; };
-		DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListContainerViewRepresentable.swift; sourceTree = "<group>"; };
-		DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListHostingViewController.swift; sourceTree = "<group>"; };
-		DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IGListHostingViewController+Preview.swift"; sourceTree = "<group>"; };
-		DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLCombineBinder.swift; sourceTree = "<group>"; };
-		DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLReSwiftSubscriber.swift; sourceTree = "<group>"; };
-		DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLRxBinder.swift; sourceTree = "<group>"; };
-		DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerCell.swift; sourceTree = "<group>"; };
-		DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
-		DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
-		DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipCell.swift; sourceTree = "<group>"; };
-		DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCell.swift; sourceTree = "<group>"; };
-		DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerItem.swift; sourceTree = "<group>"; };
-		DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderItem.swift; sourceTree = "<group>"; };
-		DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingItem.swift; sourceTree = "<group>"; };
-		DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipItem.swift; sourceTree = "<group>"; };
-		DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureItem.swift; sourceTree = "<group>"; };
-		DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBannerSectionController.swift; sourceTree = "<group>"; };
-		DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionController.swift; sourceTree = "<group>"; };
-		DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSectionController.swift; sourceTree = "<group>"; };
-		DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChipSectionController.swift; sourceTree = "<group>"; };
-		DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSectionController.swift; sourceTree = "<group>"; };
-		DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelpers.swift; sourceTree = "<group>"; };
-		DB44E4852E67FBA5008ECBF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureFeedViewIGL.swift; sourceTree = "<group>"; };
-		DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemperatureFeedViewIGL+Preview.swift"; sourceTree = "<group>"; };
 		DB44E48A2E67FBA5008ECBF6 /* sector_mapping.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sector_mapping.json; sourceTree = "<group>"; };
 		DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotificationScheduler.swift; sourceTree = "<group>"; };
 		DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorMappingProvider.swift; sourceTree = "<group>"; };
 		DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAlertsProvider.swift; sourceTree = "<group>"; };
 		DB44E4902E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Temperature_IGListKit_RxSwift_ReSwift.entitlements; sourceTree = "<group>"; };
-		DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_IGListKit_RxSwift_ReSwiftApp.swift; sourceTree = "<group>"; };
-		DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureColorProvider.swift; sourceTree = "<group>"; };
-		DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModels.swift; sourceTree = "<group>"; };
-		DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketImpactCardCell.swift; sourceTree = "<group>"; };
-		DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerRowCell.swift; sourceTree = "<group>"; };
+		DB44E5352E69E3EB008ECBF6 /* MockWeatherDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWeatherDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DB44E4DC2E688117008ECBF6 /* Design */ = {
+		DB44E5252E69D90B008ECBF6 /* Components */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Design;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DB44E5262E69D916008ECBF6 /* Tabs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		DB44E5922E6A9747008ECBF6 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB44E59F2E6AF781008ECBF6 /* Theme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		DB44E5A22E6AF814008ECBF6 /* UI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -132,16 +88,17 @@
 		DB44E3BD2E615D86008ECBF6 = {
 			isa = PBXGroup;
 			children = (
-				DB44E4DC2E688117008ECBF6 /* Design */,
 				DB44E3C72E615D86008ECBF6 /* Products */,
 				DB44E4572E67FBA5008ECBF6 /* App */,
 				DB44E4582E67FBA5008ECBF6 /* Assets.xcassets */,
+				DB44E59F2E6AF781008ECBF6 /* Theme */,
+				DB44E5922E6A9747008ECBF6 /* Models */,
 				DB44E45F2E67FBA5008ECBF6 /* Domain */,
 				DB44E4892E67FBA5008ECBF6 /* Presentation */,
 				DB44E48B2E67FBA5008ECBF6 /* Resources */,
 				DB44E48F2E67FBA5008ECBF6 /* Services */,
 				DB44E4902E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */,
-				DB44E4912E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift */,
+				DB44E5A22E6AF814008ECBF6 /* UI */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,133 +146,11 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		DB44E4612E67FBA5008ECBF6 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4602E67FBA5008ECBF6 /* WeatherScenario.swift */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		DB44E4642E67FBA5008ECBF6 /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4622E67FBA5008ECBF6 /* IGListAdapterProvider.swift */,
-				DB44E4632E67FBA5008ECBF6 /* IGListObjectsDataSource.swift */,
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		DB44E4682E67FBA5008ECBF6 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4652E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift */,
-				DB44E4662E67FBA5008ECBF6 /* IGListHostingViewController.swift */,
-				DB44E4672E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift */,
-			);
-			path = Bridge;
-			sourceTree = "<group>";
-		};
-		DB44E46A2E67FBA5008ECBF6 /* Combine */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4692E67FBA5008ECBF6 /* IGLCombineBinder.swift */,
-			);
-			path = Combine;
-			sourceTree = "<group>";
-		};
-		DB44E46C2E67FBA5008ECBF6 /* ReSwift */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E46B2E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift */,
-			);
-			path = ReSwift;
-			sourceTree = "<group>";
-		};
-		DB44E46E2E67FBA5008ECBF6 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E46D2E67FBA5008ECBF6 /* IGLRxBinder.swift */,
-			);
-			path = RxSwift;
-			sourceTree = "<group>";
-		};
-		DB44E46F2E67FBA5008ECBF6 /* BridgesToState */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E46A2E67FBA5008ECBF6 /* Combine */,
-				DB44E46C2E67FBA5008ECBF6 /* ReSwift */,
-				DB44E46E2E67FBA5008ECBF6 /* RxSwift */,
-			);
-			path = BridgesToState;
-			sourceTree = "<group>";
-		};
-		DB44E4752E67FBA5008ECBF6 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4702E67FBA5008ECBF6 /* AlertBannerCell.swift */,
-				DB44E5072E69A8DE008ECBF6 /* MarketImpactCardCell.swift */,
-				DB44E5092E69A99B008ECBF6 /* TickerRowCell.swift */,
-				DB44E4712E67FBA5008ECBF6 /* HeaderCell.swift */,
-				DB44E4722E67FBA5008ECBF6 /* LoadingCell.swift */,
-				DB44E4732E67FBA5008ECBF6 /* SectorChipCell.swift */,
-				DB44E4742E67FBA5008ECBF6 /* TemperatureCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DB44E47B2E67FBA5008ECBF6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4762E67FBA5008ECBF6 /* AlertBannerItem.swift */,
-				DB44E5052E69A8AA008ECBF6 /* MarketModels.swift */,
-				DB44E4772E67FBA5008ECBF6 /* HeaderItem.swift */,
-				DB44E4782E67FBA5008ECBF6 /* LoadingItem.swift */,
-				DB44E4792E67FBA5008ECBF6 /* SectorChipItem.swift */,
-				DB44E47A2E67FBA5008ECBF6 /* TemperatureItem.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		DB44E4812E67FBA5008ECBF6 /* SectionControllers */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E47C2E67FBA5008ECBF6 /* AlertBannerSectionController.swift */,
-				DB44E47D2E67FBA5008ECBF6 /* HeaderSectionController.swift */,
-				DB44E47E2E67FBA5008ECBF6 /* LoadingSectionController.swift */,
-				DB44E47F2E67FBA5008ECBF6 /* SectorChipSectionController.swift */,
-				DB44E4802E67FBA5008ECBF6 /* TemperatureSectionController.swift */,
-			);
-			path = SectionControllers;
-			sourceTree = "<group>";
-		};
-		DB44E4822E67FBA5008ECBF6 /* IGListKitBridge */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4642E67FBA5008ECBF6 /* Adapter */,
-				DB44E4682E67FBA5008ECBF6 /* Bridge */,
-				DB44E46F2E67FBA5008ECBF6 /* BridgesToState */,
-				DB44E4752E67FBA5008ECBF6 /* Cells */,
-				DB44E47B2E67FBA5008ECBF6 /* Models */,
-				DB44E4812E67FBA5008ECBF6 /* SectionControllers */,
-			);
-			path = IGListKitBridge;
-			sourceTree = "<group>";
-		};
-		DB44E4842E67FBA5008ECBF6 /* Previews */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4832E67FBA5008ECBF6 /* PreviewHelpers.swift */,
-			);
-			path = Previews;
-			sourceTree = "<group>";
-		};
 		DB44E4882E67FBA5008ECBF6 /* SwiftUI  */ = {
 			isa = PBXGroup;
 			children = (
-				DB44E4852E67FBA5008ECBF6 /* ContentView.swift */,
-				DB44E4862E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift */,
-				DB44E4872E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift */,
+				DB44E5262E69D916008ECBF6 /* Tabs */,
+				DB44E5252E69D90B008ECBF6 /* Components */,
 			);
 			path = "SwiftUI ";
 			sourceTree = "<group>";
@@ -323,9 +158,6 @@
 		DB44E4892E67FBA5008ECBF6 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				DB44E4612E67FBA5008ECBF6 /* Debug */,
-				DB44E4822E67FBA5008ECBF6 /* IGListKitBridge */,
-				DB44E4842E67FBA5008ECBF6 /* Previews */,
 				DB44E4882E67FBA5008ECBF6 /* SwiftUI  */,
 			);
 			path = Presentation;
@@ -343,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				DB44E48C2E67FBA5008ECBF6 /* AlertNotificationScheduler.swift */,
-				DB44E4DF2E68830B008ECBF6 /* TemperatureColorProvider.swift */,
+				DB44E5352E69E3EB008ECBF6 /* MockWeatherDataService.swift */,
 				DB44E48D2E67FBA5008ECBF6 /* SectorMappingProvider.swift */,
 				DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */,
 			);
@@ -366,7 +198,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DB44E4DC2E688117008ECBF6 /* Design */,
+				DB44E5252E69D90B008ECBF6 /* Components */,
+				DB44E5262E69D916008ECBF6 /* Tabs */,
+				DB44E5922E6A9747008ECBF6 /* Models */,
+				DB44E59F2E6AF781008ECBF6 /* Theme */,
+				DB44E5A22E6AF814008ECBF6 /* UI */,
 			);
 			name = Temperature_IGListKit_RxSwift_ReSwift.entitlements;
 			packageProductDependencies = (
@@ -435,48 +271,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB44E4942E67FBA5008ECBF6 /* IGLCombineBinder.swift in Sources */,
-				DB44E4952E67FBA5008ECBF6 /* AlertBannerItem.swift in Sources */,
-				DB44E50A2E69A99B008ECBF6 /* TickerRowCell.swift in Sources */,
-				DB44E4962E67FBA5008ECBF6 /* SectorChipSectionController.swift in Sources */,
 				DB44E4972E67FBA5008ECBF6 /* FeatureFlag.swift in Sources */,
-				DB44E4982E67FBA5008ECBF6 /* SectorChipItem.swift in Sources */,
-				DB44E4992E67FBA5008ECBF6 /* ContentView.swift in Sources */,
 				DB44E49A2E67FBA5008ECBF6 /* SectorMappingProvider.swift in Sources */,
-				DB44E49B2E67FBA5008ECBF6 /* SectorChipCell.swift in Sources */,
-				DB44E49C2E67FBA5008ECBF6 /* IGListObjectsDataSource.swift in Sources */,
-				DB44E49D2E67FBA5008ECBF6 /* IGLRxBinder.swift in Sources */,
-				DB44E49E2E67FBA5008ECBF6 /* HeaderCell.swift in Sources */,
-				DB44E49F2E67FBA5008ECBF6 /* LoadingCell.swift in Sources */,
-				DB44E4A02E67FBA5008ECBF6 /* IGListAdapterProvider.swift in Sources */,
-				DB44E4A12E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwiftApp.swift in Sources */,
-				DB44E4A22E67FBA5008ECBF6 /* TemperatureSectionController.swift in Sources */,
+				DB44E5362E69E3EB008ECBF6 /* MockWeatherDataService.swift in Sources */,
 				DB44E4A32E67FBA5008ECBF6 /* Thresholds.swift in Sources */,
 				DB44E4A42E67FBA5008ECBF6 /* AlertNotificationScheduler.swift in Sources */,
 				DB44E4A52E67FBA5008ECBF6 /* App.swift in Sources */,
-				DB44E4A62E67FBA5008ECBF6 /* HeaderItem.swift in Sources */,
 				DB44E4A72E67FBA5008ECBF6 /* SectorSuggestion.swift in Sources */,
-				DB44E4A82E67FBA5008ECBF6 /* IGLReSwiftSubscriber.swift in Sources */,
-				DB44E4A92E67FBA5008ECBF6 /* IGListContainerViewRepresentable.swift in Sources */,
-				DB44E4AA2E67FBA5008ECBF6 /* IGListHostingViewController.swift in Sources */,
 				DB44E4AB2E67FBA5008ECBF6 /* Temperature.swift in Sources */,
-				DB44E4AC2E67FBA5008ECBF6 /* AlertBannerCell.swift in Sources */,
-				DB44E4AD2E67FBA5008ECBF6 /* WeatherScenario.swift in Sources */,
-				DB44E4AE2E67FBA5008ECBF6 /* HeaderSectionController.swift in Sources */,
-				DB44E4AF2E67FBA5008ECBF6 /* TemperatureFeedViewIGL+Preview.swift in Sources */,
-				DB44E5082E69A8DE008ECBF6 /* MarketImpactCardCell.swift in Sources */,
 				DB44E4B02E67FBA5008ECBF6 /* WeatherAlertsProvider.swift in Sources */,
-				DB44E4B12E67FBA5008ECBF6 /* PreviewHelpers.swift in Sources */,
-				DB44E4B22E67FBA5008ECBF6 /* IGListHostingViewController+Preview.swift in Sources */,
-				DB44E4B32E67FBA5008ECBF6 /* TemperatureItem.swift in Sources */,
-				DB44E4E02E68830B008ECBF6 /* TemperatureColorProvider.swift in Sources */,
 				DB44E4B42E67FBA5008ECBF6 /* WeatherEvent.swift in Sources */,
-				DB44E4B52E67FBA5008ECBF6 /* AlertBannerSectionController.swift in Sources */,
-				DB44E4B62E67FBA5008ECBF6 /* LoadingSectionController.swift in Sources */,
-				DB44E4B72E67FBA5008ECBF6 /* LoadingItem.swift in Sources */,
-				DB44E4B82E67FBA5008ECBF6 /* TemperatureCell.swift in Sources */,
-				DB44E4B92E67FBA5008ECBF6 /* TemperatureFeedViewIGL.swift in Sources */,
-				DB44E5062E69A8AA008ECBF6 /* MarketModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
