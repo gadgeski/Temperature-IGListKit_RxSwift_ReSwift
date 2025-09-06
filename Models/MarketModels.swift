@@ -14,6 +14,11 @@ public struct MarketData {
     public init(featuredSectors: [SectorImpact]) {
         self.featuredSectors = featuredSectors
     }
+    
+    // ADDED: ViewModelの初期化用に空の状態を追加
+    static var empty: MarketData {
+        .init(featuredSectors: [])
+    }
 }
 
 public struct SectorImpact {
