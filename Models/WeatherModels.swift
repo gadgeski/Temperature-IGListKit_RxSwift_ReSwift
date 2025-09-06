@@ -34,6 +34,19 @@ public struct WeatherData {
         self.hourlyForecast = hourlyForecast
         self.alerts = alerts
     }
+
+    // ADDED: ViewModelの初期化用に空の状態を追加
+    static var empty: WeatherData {
+        .init(
+            temperature: 0,
+            condition: .sunny,
+            humidity: 0,
+            windSpeed: 0,
+            location: "...",
+            hourlyForecast: [],
+            alerts: []
+        )
+    }
 }
 
 public enum WeatherCondition: String, CaseIterable {
