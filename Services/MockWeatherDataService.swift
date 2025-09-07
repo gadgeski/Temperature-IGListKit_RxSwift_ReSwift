@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift // ADDED: RxSwiftをインポート
 
 // API通信をシミュレートし、天気データを返すサービス
 final class MockWeatherDataService {
@@ -32,22 +33,33 @@ final class MockWeatherDataService {
     // 呼び出されるたびにシナリオを切り替えるためのインデックス
     private var scenarioIndex = 0
 
+    // CHANGED: 戻り値を async -> Single に変更
     /// 天気データを非同期で取得する（という想定の）関数
-    func fetchWeatherData() async -> (temperatures: [Temperature], condition: WeatherCondition) {
-        // 擬似的に0.5秒待つ
-        try? await Task.sleep(nanoseconds: 500_000_000)
+    func fetchWeatherData() -> Single<(temperatures: [Temperature], condition: WeatherCondition)> {
+        // Single.create を使って、非同期処理をRxのストリームにラップします
+        return Single.create { single in
+            // 擬似的に0.5秒待つ
+            // async/awaitのコードをTaskで包むことで、Rxの世界で共存させています
+            Task {
+                try? await Task.sleep(nanoseconds: 500_000_000)
 
-        // シナリオを順番に切り替える
-        let scenario = scenarioIndex % 3
-        scenarioIndex += 1
+                // シナリオを順番に切り替える
+                let scenario = self.scenarioIndex % 3
+                self.scenarioIndex += 1
 
-        switch scenario {
-        case 0:
-            return (Self.heatwaveTemperatures, .sunny)
-        case 1:
-            return (Self.coldwaveTemperatures, .cloudy) // 寒波なので曇りアイコンに
-        default:
-            return (Self.normalTemperatures, .sunny)
+                switch scenario {
+                case 0:
+                    // 成功した場合は .success で値を流します
+                    single(.success((Self.heatwaveTemperatures, .sunny)))
+                case 1:
+                    // 寒波なので曇りアイコンに
+                    single(.success((Self.coldwaveTemperatures, .cloudy)))
+                default:
+                    single(.success((Self.normalTemperatures, .sunny)))
+                }
+            }
+            // お作法として、購読解除時の処理を返します (今回は何もしません)
+            return Disposables.create()
         }
     }
 }
