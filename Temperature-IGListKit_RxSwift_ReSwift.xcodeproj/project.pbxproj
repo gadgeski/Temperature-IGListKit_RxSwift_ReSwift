@@ -23,6 +23,8 @@
 		DB44E4B02E67FBA5008ECBF6 /* WeatherAlertsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */; };
 		DB44E4B42E67FBA5008ECBF6 /* WeatherEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E45D2E67FBA5008ECBF6 /* WeatherEvent.swift */; };
 		DB44E5362E69E3EB008ECBF6 /* MockWeatherDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44E5352E69E3EB008ECBF6 /* MockWeatherDataService.swift */; };
+		DB44E6742E6C71E0008ECBF6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E6732E6C71E0008ECBF6 /* RxSwift */; };
+		DB44E6762E6C71F5008ECBF6 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DB44E6752E6C71F5008ECBF6 /* RxRelay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB44E6762E6C71F5008ECBF6 /* RxRelay in Frameworks */,
 				DB44E3D82E61984F008ECBF6 /* IGListDiffKit in Frameworks */,
 				DB44E3DA2E61984F008ECBF6 /* IGListKit in Frameworks */,
+				DB44E6742E6C71E0008ECBF6 /* RxSwift in Frameworks */,
 				DB44E3DC2E61984F008ECBF6 /* IGListSwiftKit in Frameworks */,
 				DB44E3E02E619946008ECBF6 /* ReSwift in Frameworks */,
 			);
@@ -99,6 +103,7 @@
 				DB44E48F2E67FBA5008ECBF6 /* Services */,
 				DB44E4902E67FBA5008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements */,
 				DB44E5A22E6AF814008ECBF6 /* UI */,
+				DB44E6722E6C71E0008ECBF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,19 +151,11 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		DB44E4882E67FBA5008ECBF6 /* SwiftUI  */ = {
+		DB44E4892E67FBA5008ECBF6 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				DB44E5262E69D916008ECBF6 /* Tabs */,
 				DB44E5252E69D90B008ECBF6 /* Components */,
-			);
-			path = "SwiftUI ";
-			sourceTree = "<group>";
-		};
-		DB44E4892E67FBA5008ECBF6 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				DB44E4882E67FBA5008ECBF6 /* SwiftUI  */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -180,6 +177,13 @@
 				DB44E48E2E67FBA5008ECBF6 /* WeatherAlertsProvider.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		DB44E6722E6C71E0008ECBF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +214,8 @@
 				DB44E3D92E61984F008ECBF6 /* IGListKit */,
 				DB44E3DB2E61984F008ECBF6 /* IGListSwiftKit */,
 				DB44E3DF2E619946008ECBF6 /* ReSwift */,
+				DB44E6732E6C71E0008ECBF6 /* RxSwift */,
+				DB44E6752E6C71F5008ECBF6 /* RxRelay */,
 			);
 			productName = "Tenperature-IGListKit_RxSwift_ReSwift";
 			productReference = DB44E3C62E615D86008ECBF6 /* Temperature_IGListKit_RxSwift_ReSwift.entitlements.app */;
@@ -551,6 +557,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DB44E3DE2E619946008ECBF6 /* XCRemoteSwiftPackageReference "ReSwift" */;
 			productName = ReSwift;
+		};
+		DB44E6732E6C71E0008ECBF6 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3DD2E61992E008ECBF6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		DB44E6752E6C71F5008ECBF6 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44E3DD2E61992E008ECBF6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
