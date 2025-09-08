@@ -23,3 +23,4 @@ playground.xcworkspace
 *.xcuserstate
 DerivedData/
 .DS_Store
+.env
